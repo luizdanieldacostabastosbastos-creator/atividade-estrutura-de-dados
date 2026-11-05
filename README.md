@@ -47,4 +47,12 @@ Os valores abaixo mostram comparacoes / trocas ou movimentacoes.
 
 O programa tambem testa um vetor aleatorio, um ordenado e um invertido, todos com 1.000 elementos.
 
+Resultados do desafio (comparacoes / trocas ou movimentacoes):
+
+| Vetor | Bubble | Insertion | Selection | Quick |
+|---|---:|---:|---:|---:|
+| Aleatorio | 498.939 / 250.019 | 251.003 / 251.018 | 499.500 / 996 | 10.566 / 4.945 |
+| Ordenado | 999 / 0 | 999 / 999 | 499.500 / 0 | 499.500 / 0 |
+| Invertido | 499.500 / 499.451 | 499.500 / 500.450 | 499.500 / 531 | 472.262 / 531 |
+
 **Conclusao:** A organizacao dos numeros muda os resultados. Bubble e Insertion trabalham melhor quando os numeros ja estao ordenados. Selection mantem a mesma quantidade de comparacoes. O Quick Sort pode ter um resultado ruim dependendo da escolha do pivo.
